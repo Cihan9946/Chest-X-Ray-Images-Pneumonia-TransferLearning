@@ -12,6 +12,7 @@ import tensorflow as tf
 import glob
 from tensorflow.keras.preprocessing.image import ImageDataGenerator,load_img
 
+
 train_dir = "../input/chest-xray-pneumonia/chest_xray/train"
 test_dir = "../input/chest-xray-pneumonia/chest_xray/test"
 val_dir = "../input/chest-xray-pneumonia/chest_xray/val"
